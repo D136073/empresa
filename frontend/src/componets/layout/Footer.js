@@ -2,7 +2,9 @@ import React from 'react';
 
 const Footer = (props) =>{
     return (
-        <div>FOOTER</div>
+        <footer>
+            <p>Derechos Reservados. Diego Testa 2023</p>
+        </footer>
     );
 }
 export default Footer;
