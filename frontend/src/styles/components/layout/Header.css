@@ -1,0 +1,10 @@
+.holder{
+    display: inline-flex;
+    flex-direction: row;
+    place-items: center;
+
+}
+header{
+    background-color: gainsboro;
+    padding: 2%;
+}
