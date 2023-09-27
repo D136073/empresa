@@ -3,10 +3,13 @@ import '../../styles/components/layout/Header.css';
 
 const Header = (props) =>{
     return (
-       <header>
-        <div className='holder'>
-            <img src='images/logo.png' width='100' alt='Imagen' />           
-            <h1>DIEGO TESTA</h1>
+       <header className='holder'>
+        <div className='logo'>
+            <img id='logo' src='images/logo.png' width='100' alt='Imagen' />   
+        </div>
+        <div id='titulo'>
+            <h1 id='nombre'>DIEGO TESTA</h1>
+            <h3>Creador Digital</h3>
         </div>
        </header>
     );

@@ -2,9 +2,19 @@
     display: inline-flex;
     flex-direction: row;
     place-items: center;
-
-}
-header{
+    width: 96%;
+    justify-content: space-between;
     background-color: gainsboro;
     padding: 2%;
+    margin-top: 5px;
+    background-image: url("../../../../public/images/fondotecnologia.jpeg" );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 20%;
+    border-radius: 15px;
+
+}
+
+#titulo{
+padding-right: 1%;
 }
