@@ -4,3 +4,12 @@ body {
 #nov{
     color: white;
 }
+#imagen2 {
+    height: 300px;
+    border-radius: 10px;
+}
+#imagen2:hover {
+    transition: all 0.5s;
+    height: 200px;
+    transform: rotate(7deg);
+}
