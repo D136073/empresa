@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../../public/stylesheets/style.css">
+    <title>Agregar Novedades</title>
+</head>
+<body id="agregar">
+    <div class="container">
+        <div class="row">
+            <div class="col-6 offset-3">
+                <h5>Agregar Novedad</h5>
+                <form action="/admin/novedades/agregar" method="post">
+                    <div class="mb-3 row">
+                        <input type="text" class="form-control" placeholder="Titulo" name="titulo">
+                    </div>
+                    <div class="mb-3 row">
+                        <textarea type="text" class="form-control" placeholder="Subtitulo" name="subtitulo"></textarea>
+                    </div>
+                    <div class="mb-3 row">
+                        <textarea type="text" class="form-control" placeholder="Cuerpo" name="cuerpo"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        Guardar
+                    </button>
+                </form>
+                {{#if error}}
+                <h5>{{message}}</h5>
+                {{/if}}
+            </div>
+        </div>
+    </div>
+</body>
+</html>
