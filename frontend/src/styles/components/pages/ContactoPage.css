@@ -1,7 +1,4 @@
-body{
-    background-color: black;
 
-}
  #titulocontacto{
     color: white;
     text-align: center;
@@ -36,7 +33,7 @@ textarea{
     resize: both;
     columns: 25;
 }
-Button{
+#Button{
     background-color: #000000;
     color: white;
     border: none;
@@ -49,7 +46,7 @@ Button{
     width: 500px;
 }
 
-Button:hover{
+#Button:hover{
     color: #000000;
     background-color: white;
     font-weight: bold;

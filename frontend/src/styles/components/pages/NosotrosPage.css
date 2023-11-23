@@ -1,15 +1,9 @@
-body {
-    background-color: black;
+#contenedornos{
+    color: white;
 }
-#nos{
-color: white;
-}
-#imagen{
-    height: 300px;
+#cardimg{
     border-radius: 10px;
-}
-#imagen:hover {
-    transition: all 0.5s;
-    height: 350px;
-    transform: rotate(-7deg);
+    margin: 5px;
+    border: white solid 2px;
+    box-shadow: -5px 5px 8px rgba(255, 255, 255, 0.616)
 }
