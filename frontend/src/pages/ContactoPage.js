@@ -9,8 +9,9 @@ import Form from 'react-bootstrap/Form';
 const ContactoPage = (props) => {
     return (
         <>
-        <h2>FORMULARIO DE CONTACTO</h2>
+        
          <Form>
+            <h2 id='titulocontacto'>FORMULARIO DE CONTACTO</h2>
                 <Form.Group as={Col} controlId="Line 1" id='row' >
                     <Form.Label>Email</Form.Label>
                     <span> </span>

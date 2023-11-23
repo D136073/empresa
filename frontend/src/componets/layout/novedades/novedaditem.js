@@ -1,20 +1,32 @@
 import React from "react";
-import './../../../styles/components/layout/novedadesitem.css'
+import './../../../styles/components/layout/novedadesitem.css';
+import Figure from 'react-bootstrap/Figure';
+
+
 
 const NovedadItem = (props) => {
     const {title, subtitle, body, image} = props;
-///armar la estructura de cada seccion de noticias para la parte viual
-    return(
-        <div className="novedades" id="novedades">
-            <h2>{title}</h2>
-            <h4>{subtitle}</h4>
-            <div className="container-fluid" id="noticiaconfoto">
-                <img src={image} alt="novedad" id="imgnovedades" / >
-                <div dangerouslySetInnerHTML={{__html:body}} />     
-                </div>
+    return (
+    <div className="novedades" id="novedadesdiv">
+            <div id="titulonoticia">
+               <h2>{title}</h2> 
             </div>
-            
-    );
+            <div id="subtitulonoticias" >
+                <h4>{subtitle}</h4>
+            </div>
+           <Figure id="Figure" >
+                <Figure.Image id="FI"
+                width={200}
+                    alt="novedad"
+                    src={image}
+                />
+                <span> </span>
+                <Figure.Caption dangerouslySetInnerHTML={{__html:body}} >          
+                </Figure.Caption>
+                </Figure>
+            </div>
+
+  );
 }
 
 export default NovedadItem;

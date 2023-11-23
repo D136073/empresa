@@ -2,11 +2,10 @@ body{
     background-color: black;
 
 }
- h2{
+ #titulocontacto{
     color: white;
     text-align: center;
-    font-size: 30px;
-    margin-top: 40px;
+    margin-top: 3px;
  }
 Form{
     display: flex;
@@ -18,7 +17,7 @@ Form{
     padding: 10px;
     width: fit-content;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 50px;
     border: white solid 1px;
     box-shadow: -5px 5px 8px rgba(255, 255, 255, 0.616)
 }

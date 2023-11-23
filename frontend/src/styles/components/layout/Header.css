@@ -7,10 +7,10 @@
     background-color: gainsboro;
     padding: 2%;
     margin-top: 5px;
-    background-image: url("../../../../public/images/headerfondo.jpg" );
+    background-image: url("../../../../public/images/fondoheader.png" );
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 20%;
+    background-position-y: 75%;
     border-radius: 15px;
 
 }

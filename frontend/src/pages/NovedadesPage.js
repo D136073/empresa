@@ -23,7 +23,7 @@ const NovedadesPage = (props) => {
 
     return (
         <section className='novedades'>
-            <h2>NOTICIAS</h2>{
+            <h2 id='TituloNoticias'>NOTICIAS</h2>{
                 loading ? (
                     <p>Cargando...</p>
                 ) : (
