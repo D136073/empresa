@@ -1,10 +1,24 @@
 body {
     background-color: black;
+    
 }
-#hope{
+#contenedor{
+	height: auto;
+    overflow: hidden;
     color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    
 }
-#video{
-    height: 300px;
+.Col{
+    padding: 1%;
+    margin-left: 20px;
+
+}
+.LogoHome{
+    width: 90%;
     border-radius: 10px;
+    border: black solid 3px;
 }

@@ -13,6 +13,7 @@ import NovedadesPage from './pages/NovedadesPage';
 
 import './App.css';
 
+
 function App() {
   return (
     <div className="App">

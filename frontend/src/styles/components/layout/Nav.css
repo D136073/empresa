@@ -24,7 +24,7 @@ nav{
     width: auto;  
 }
 #holdernav{ 
-    background-color: rgb(196, 196, 196);
+    background-color:white;
     width: auto;
     border-radius: 10px;
 }
@@ -35,7 +35,7 @@ nav{
 }
 
 #mit:hover{
-    color: white;
+    color: black;
 }
 li:hover{
  font-style: italic;

@@ -2,16 +2,57 @@ body{
     background-color: black;
 
 }
-#cont{
+ h2{
     color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+ }
+Form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    border-radius: 8px;
+    background-color: #000000;
+    padding: 10px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 100px;
+    border: white solid 1px;
+    box-shadow: -5px 5px 8px rgba(255, 255, 255, 0.616)
 }
-#imagen3 {
-    height: 300px;
-    border-radius: 10px;
+#row{
+    padding: 5px;
+    margin: 5px;
+    width: 100%;
+    font-size: large;
+    height: 50px;
+}
+textarea{
+    margin-bottom: 10px;
+    width: 500px;
+    height: 150px;
+    border-radius: 5px;
+    resize: both;
+    columns: 25;
+}
+Button{
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all .3s ease;
+    border: white solid 1px;
+    width: 500px;
 }
 
-#imagen3:hover{
-    transition: all 0.5s;
-    height: 350px;
-    transform: rotate(7deg);
+Button:hover{
+    color: #000000;
+    background-color: white;
+    font-weight: bold;
+    transition: 1000ms;
 }
