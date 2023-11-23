@@ -6,12 +6,12 @@
     <link rel="stylesheet" href="./../../public/stylesheets/style.css">
     <title>Agregar Novedades</title>
 </head>
-<body id="agregar">
-    <div class="container">
+<body>
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-6 offset-3">
+            <div class="col-6">
                 <h5>Agregar Novedad</h5>
-                <form action="/admin/novedades/agregar" method="post">
+                <form action="/admin/novedades/agregar" method="post" enctype="multipart/form-data">
                     <div class="mb-3 row">
                         <input type="text" class="form-control" placeholder="Titulo" name="titulo">
                     </div>
@@ -20,6 +20,9 @@
                     </div>
                     <div class="mb-3 row">
                         <textarea type="text" class="form-control" placeholder="Cuerpo" name="cuerpo"></textarea>
+                    </div>
+                    <div class="mb-4 row" >
+                        <lavel>Imagen: <input type="file" class="form-control" name="imagen" id="imagen"/></lavel>
                     </div>
                     <button type="submit" class="btn btn-primary">
                         Guardar

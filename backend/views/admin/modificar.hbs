@@ -1,19 +1,32 @@
 
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-6 offser-3">
+            <div class="col-6">
                 <h3>Modificar novedad</h3>
-                <form action="/admin/novedades/modificar" method="post">
-                    <input type="text" name="id" type="hidden" value="{{novedad.id}}">
-                    <div class="form-group">
+                <br>
+                <form action="/admin/novedades/modificar" method="post" enctype="multipart/form-data">
+                    <input name="id" type="hidden" value="{{novedad.id}}">
+                    
+                    <div class="mb-3 row">
                         <input type="text" placeholder="Titulo" value="{{novedad.titulo}}" class="form-control" name="titulo">
                     </div>
-                    <div class="form-group">
+                    <div class="mb-3 row">
                         <textarea name="subtitulo" placeholder="Subtitulo" class="form-control">{{novedad.subtitulo}}</textarea>
                     </div>
-                    <div class="form-group">
-                        <textarea name="cuerpo" placeholder="Cuerpo" class="form-control">{{novedad.cuerpo}}</textarea>
+                    <div class="mb-3 row">
+                        <textarea name="cuerpo" placeholder="Cuerpo" class="form-control" rows="10">{{novedad.cuerpo}}</textarea>
                     </div>
+                    <div class="mb-3 row">
+                        <p>
+                            <lavel>Imagen:<input class="form-control" type="file" name="imagen" id="imagen"/></lavel>
+                        </p>
+                        <p>
+                            <lavel><input type="checkbox"  name="img_delete" id="img_delete" value="1"/>
+                            Eliminar imagen Actual?</lavel>
+                            <inpupt type="hidden" name="img_original" value="{{novedad.img_id}}" />
+                        </p>
+                    </div>
+                    
                     <button type="submit" class="btn btn-primary">
                         Modificar
                     </button>

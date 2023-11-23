@@ -1,4 +1,4 @@
-        <div class="row justify-content-center">
+        <div class="container-fluid" id="Cerrar">
             {{!-- Fila 1 --}}
                 <h4>
                     Hola {{persona}}
@@ -13,9 +13,9 @@
          <br>
          <br>
         {{!-- Fila 2 --}}
-        <div class="row">
+        <div class="row" id="Tablanovedades">
             <div class="col-4">
-                <h5>Novedades</h5>
+                <h5 id="TituloNovedades">Novedades</h5>
             </div>
             <br>
             <br>
@@ -31,11 +31,12 @@
         {{!-- Fila 3 --}}
         <div class="row">
             <div class="col">
-                <table class="table">
+                <table class="table" id="Tabla">
                     <thead>
                         <tr class="table-dark">
                             <th scope="col">ID</th>
                             <th scope="col">Titulo</th>
+                            <th scope="col">Imagen</th>
                             <th class="text-end">Acciones</th>
                         </tr>
                     </thead>
@@ -44,6 +45,7 @@
                         <tr>
                             <th scope="row">{{id}}</th>
                             <td>{{titulo}}</td>
+                            <td><img src="" alt="" width= "">{{{imagen}}}</td>
                             <td class="text-end">
                                 <a class="btn bt-secondary"  href="/admin/novedades/modificar/{{id}}">
                                     <i class="fa fa-pencil" aria-hidden="true" >
