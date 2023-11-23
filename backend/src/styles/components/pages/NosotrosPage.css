@@ -1,0 +1,15 @@
+body {
+    background-color: black;
+}
+#nos{
+color: white;
+}
+#imagen{
+    height: 300px;
+    border-radius: 10px;
+}
+#imagen:hover {
+    transition: all 0.5s;
+    height: 350px;
+    transform: rotate(-7deg);
+}

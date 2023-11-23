@@ -1,0 +1,44 @@
+ul{
+    height: 30px;
+   
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: center;
+    place-items: center;
+    place-content: space-between;
+    
+    margin-top: 5px;
+    padding-left: 4%;
+    padding-right: 4%;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: medium;
+    
+    color: black;
+
+    list-style: none;
+}
+nav{ 
+    width: auto;  
+}
+#holdernav{ 
+    background-color:white;
+    width: auto;
+    border-radius: 10px;
+}
+
+#mit{
+    color: black;
+
+}
+
+#mit:hover{
+    color: black;
+}
+li:hover{
+ font-style: italic;
+ font-weight: bolder;
+
+}

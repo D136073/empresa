@@ -1,0 +1,36 @@
+#novedades{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.681);
+    border: white solid 1px;
+    border-radius: 10px;
+}
+#novedadetitulos{
+    width: 80%;
+    background-color: aqua;
+}
+h2, h4{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    overflow-wrap: break-word;
+}
+imgnovedades{
+    background-color: transparent;
+    border: none;  
+    width: auto;
+    height: 70%;
+    margin: 0px;
+    padding: 10px;
+}
+
+#noticiaconfoto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+    margin: 5px;
+    padding: 5px;
+}
+
+
